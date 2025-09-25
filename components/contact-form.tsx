@@ -181,7 +181,7 @@ export function ContactForm() {
                     <Input
                       id="telephone"
                       type="tel"
-                      placeholder="+33 6 XX XX XX XX"
+                      placeholder="+32 XXXX XX XX XX"
                       value={formData.telephone}
                       onChange={(e) => handleInputChange("telephone", e.target.value)}
                     />
