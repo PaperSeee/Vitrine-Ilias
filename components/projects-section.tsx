@@ -118,7 +118,7 @@ export function ProjectsSection() {
 											} else if (project.title === "Tatuvia") {
 												window.open("https://www.tatuvia.com/", "_blank")
 											} else if (project.title === "Hypurrspot") {
-												window.open("https://hyperliquid-ufwkn7tyf-saasreviews.vercel.app/", "_blank")
+												window.open("https://www.hypurrspot.xyz/", "_blank")
 											} else {
 												window.location.href = "/contact"
 											}
@@ -162,4 +162,3 @@ export function ProjectsSection() {
 		</section>
 	)
 }
-			
