@@ -198,7 +198,7 @@ export function ServicesSection() {
 									</ul>
 									<Button
 										className="w-full mt-6 shadow-sm"
-										variant={service.color === "primary" ? "default" : "secondary"}
+										variant={service.color === "primary" ? "default" : "default"}
 									>
 										Choisir ce service
 									</Button>
@@ -287,10 +287,7 @@ export function ServicesSection() {
 						<Button
 							size="lg"
 							className="animate-glow shadow-lg"
-							onClick={() =>
-								(window.location.href =
-									"mailto:ilias.dev@outlook.com?subject=Demande de devis&body=Bonjour Ilias, je souhaiterais discuter d'un projet web...")
-							}
+							onClick={() => window.location.href = "/contact"}
 						>
 							Demander un devis gratuit
 						</Button>

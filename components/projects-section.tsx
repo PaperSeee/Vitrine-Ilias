@@ -120,8 +120,7 @@ export function ProjectsSection() {
 											} else if (project.title === "Hypurrspot") {
 												window.open("https://hyperliquid-ufwkn7tyf-saasreviews.vercel.app/", "_blank")
 											} else {
-												window.location.href =
-													"mailto:ilias.dev@outlook.com?subject=Projet " + project.title
+												window.location.href = "/contact"
 											}
 										}}
 									>
@@ -152,10 +151,7 @@ export function ProjectsSection() {
 							<Button
 								size="lg"
 								className="animate-glow"
-								onClick={() =>
-									(window.location.href =
-										"mailto:ilias.dev@outlook.com?subject=Nouveau projet&body=Bonjour Ilias, je souhaiterais discuter d'un projet...")
-								}
+								onClick={() => window.location.href = "/contact"}
 							>
 								Démarrer un projet
 							</Button>
@@ -166,3 +162,4 @@ export function ProjectsSection() {
 		</section>
 	)
 }
+			
